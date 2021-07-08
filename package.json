@@ -1,0 +1,10 @@
+{
+  "name": "chunk",
+  "scripts": {
+    "api": "yarn workspace @chunk/api",
+    "client": "yarn workspace @chunk/client"
+  },
+  "workspaces": [
+    "./packages/@chunk/*"
+  ]
+}
